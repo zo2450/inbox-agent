@@ -1,0 +1,78 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+
+  input,
+  textarea {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: #0c0b12;
+    color: #f4f2fa;
+    font: inherit;
+    font-weight: 400;
+    resize: vertical;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #c4b5fd;
+    outline-offset: 1px;
+  }
+}
+
+.submit {
+  align-self: flex-start;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(196, 181, 253, 0.55);
+  background: rgba(124, 58, 237, 0.3);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.error {
+  margin: 0;
+  color: #fca5a5;
+}
+
+.result {
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  line-height: 1.5;
+
+  p {
+    margin: 0 0 8px;
+  }
+
+  ol {
+    margin: 0 0 8px;
+    padding-left: 20px;
+    color: #a39fb5;
+    font-size: 0.875rem;
+  }
+}
+
+.draft {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(52, 211, 153, 0.07);
+}
