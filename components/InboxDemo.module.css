@@ -35,7 +35,7 @@
 }
 
 /* Marks the card as a demo, not live agent output */
-.demo {
+.demoBadge {
   display: inline-block;
   margin-left: 8px;
   padding: 1px 9px;

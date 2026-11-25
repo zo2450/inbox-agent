@@ -138,7 +138,7 @@ export function InboxDemo({ sets, run, compact = false }: Props) {
       <div className={styles.top}>
         <div>
           <p className={styles.title}>
-            Shared inbox <span className={styles.demo}>Demo</span>
+            Shared inbox <span className={styles.demoBadge}>Demo</span>
           </p>
           <p className={styles.sub}>Northside Community Pantry (a made-up food bank)</p>
         </div>
