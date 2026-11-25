@@ -36,16 +36,11 @@
 
 /* Marks the card as a demo, not live agent output */
 .demoBadge {
-  display: inline-block;
   margin-left: 8px;
-  padding: 1px 9px;
-  border-radius: 999px;
-  border: 1px solid rgba(196, 181, 253, 0.45);
-  font-size: 0.6875rem;
-  font-weight: 600;
+  font-size: 0.8125rem;
+  font-weight: 500;
   letter-spacing: 0;
-  vertical-align: middle;
-  color: #c4b5fd;
+  color: #a39fb5;
 }
 
 .sub {
