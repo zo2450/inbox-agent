@@ -29,8 +29,9 @@ export default function Home() {
           <li>The agent searches the FAQ as many times as it needs, then files the email exactly once.</li>
           <li>Drafts may only use facts from the FAQ. Complaints, partnerships and money questions go to a person.</li>
           <li>
-            The demo above replays a saved run{run.recordedAt ? ` from ${run.recordedAt.slice(0, 10)}` : ""}, so it
-            costs nothing to watch.
+            {run.source === "placeholder"
+              ? "The demo above replays a sample run written by hand, so it costs nothing to watch. A recording of the real agent will replace it."
+              : `The demo above replays a saved run from ${run.recordedAt?.slice(0, 10)}, so it costs nothing to watch.`}
           </li>
         </ol>
       </section>

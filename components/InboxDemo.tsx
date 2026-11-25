@@ -137,7 +137,9 @@ export function InboxDemo({ sets, run, compact = false }: Props) {
     <div ref={root} className={`${styles.demo} ${compact ? styles.compact : ""}`}>
       <div className={styles.top}>
         <div>
-          <p className={styles.title}>Shared inbox</p>
+          <p className={styles.title}>
+            Shared inbox <span className={styles.demo}>Demo</span>
+          </p>
           <p className={styles.sub}>Northside Community Pantry (a made-up food bank)</p>
         </div>
         <button type="button" className={styles.run} onClick={() => play(emails)} disabled={phase === "running"}>

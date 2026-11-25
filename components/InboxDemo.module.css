@@ -34,6 +34,20 @@
   letter-spacing: -0.015em;
 }
 
+/* Marks the card as a demo, not live agent output */
+.demo {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(196, 181, 253, 0.45);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  vertical-align: middle;
+  color: #c4b5fd;
+}
+
 .sub {
   margin: 2px 0 0;
   font-size: 0.8125rem;
